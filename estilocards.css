@@ -1,0 +1,85 @@
+
+div.cards {
+    display: flex;
+    padding: 32px;
+}
+
+div.cards section.card:hover {
+
+    top:-4px;
+    box-shadow: 10px 10px 30px  #035a1d86;
+     transition: all .2s ease-in-out;
+}
+
+div.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    max-height: 600px;
+    margin-left: 32px;
+}
+
+div.cards section.card:first-child {
+    margin-left: 0;
+}
+
+div.cards section.card .icon {
+    width: 64px;
+    height: 64px;
+}
+
+div.cards section.card img {
+    width: 100%;
+}
+
+div.cards section.card h3 {
+    font-size: 30%;
+    margin: 16px 0;
+}
+
+div.cards section.card span {
+    font-weight: 800;
+    max-width: 240px;
+    font-size: 100%;
+    margin-bottom: 16px;
+}
+
+div.cards section.card button {
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    font-size: 80%;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    
+}
+
+div.cards section.card button:hover{
+    transition: all 0.3s;
+    color: black;
+    background-color: rgb(255, 255, 255);
+}
+
+div.cards section.card contact button {
+    background: linear-gradient(to right, #7c2d6f, #09060e);
+}
+div.cards section.card button {
+    background: linear-gradient(to right, #499762, #035c33);
+}
+div.cards section.card.about button {
+    background: linear-gradient(to right, #7ebe17, #ec8c0d);
+}
+
+div.cards section.card {
+    box-shadow:0 4px 4px #999;
+}
+
+
+
+

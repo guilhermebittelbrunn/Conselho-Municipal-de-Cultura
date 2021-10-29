@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+
+    --corfundo: linear-gradient(to right, #499762, #035c33);
+    --cor01: #b1e7c0;
+    --cor02: #ffffff;
+    --cor03: #064417;
+    --cor04: #0a4219;
+    --fonte: font-family: 'Playfair Display', serif;
+    --fontetitulo: linear-gradient(270deg, #8aba2c 0, #73b232 16.67%, #5aa837 33.33%, #3f9c3b 50%, #1f903e 66.67%, #008541 83.33%, #007c44 100%);
+    --fundoNavBar: linear-gradient(to right, #499762, #02381f);
+    --fonte-bahia: Playfairsadient(to right, #ffb32e, #fbb551);
+    --fontecabecario: 'Righteous', cursive;
+}
+
+body {
+    /* background-image: linear-gradient(to right, #37744a, #035c33); */
+    background-color: rgb(236, 236, 236);
+    font-family: var(--fonte-bahia);
+    
+    position: relative;
+}
+
+header {
+    min-height: 50px;
+    font-family: var(--fontetitulo);
+    background-image: var(--fundoNavBar);
+}
+
+.cabecario {
+    min-height: 22px;
+    justify-content: space-between;
+    display: flex; 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    background-image: var(--fundoNavBar);
+}
+
+    .cabecario > lu > li {
+        display: inline-block;
+        font-size: 1.3em;
+        padding: 15px 0px 20px 20px;
+        font-family: Arial, Helvetica, sans-orif;
+        color: white;
+    }
+
+.entrar {
+    padding-left: 20px;
+}
+
+.cabecario a{
+    text-decoration: none;
+    color: white;
+    margin-right: 24px;
+}
+
+header > h2 {
+    padding-top: 10px;
+    font-family: var(--fonte);
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+
+nav {
+    font-size: 20px;
+    background-color: var(--cor04);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-image: var(--fundoNavBar);
+}
+
+
+.imagem {
+    background-image: url(imagens/capafundacao2.jpg);
+    min-height: 100px;
+    background-repeat: round;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.imagem2 {
+    background-image: url(cabecalho-original.png);
+    min-height: 230px;
+    background-repeat: round;
+    text-align: center;
+}
+
+.imagem > h1 {
+    color: white;
+    text-shadow: 4px 3px 7px black;
+    font-family: var(--fontecabecario);
+}
+
+.imagem > img {
+    max-height: 70px;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+    nav > a:hover {
+        background-color: var(--cor01);
+        color: var(--cor3);
+    }
+
+main {
+    padding: 12px 0px 36px 0px;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--cor02);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+}
+
+#navSobreNos {
+    background-image: var(--corNavSobre);
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h4 {
+    text-align: left;
+}
+
+img .displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom:15px;
+}
+
+div .text {
+    text-align: match-parent;
+    position: page;
+    display:grid;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top:70px;
+    margin-bottom:70px;
+}
+
+/* Rodapé da página */

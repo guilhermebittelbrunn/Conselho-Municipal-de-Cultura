@@ -1,0 +1,38 @@
+.footer {
+height: 100%;
+background-color: linear-gradient(to right, #499762, #035c33);
+position: relative;
+}
+
+.fale-conosco{
+
+text-decoration: none;
+
+}
+
+.contato{
+
+margin-left: 45px;
+
+}
+
+.footer-footer .container >div{
+
+    display: grid;
+    padding: 3rem 0.9;
+    grid-template-columns:repeat(2, 1fr);
+}
+
+
+.footer h2{
+
+color: rgb(255, 255, 255)
+
+}
+
+.coluna2  img{
+
+    max-height: 70px;
+    
+
+}

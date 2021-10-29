@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+
+    --corfundo: linear-gradient(to right, #499762, #035c33);
+    --cor01: #b1e7c0;
+    --cor02: #ffffff;
+    --cor03: #064417;
+    --cor04: #0a4219;
+    --fonte: font-family: 'Playfair Display', serif;
+    --fontetitulo: linear-gradient(270deg, #8aba2c 0, #73b232 16.67%, #5aa837 33.33%, #3f9c3b 50%, #1f903e 66.67%, #008541 83.33%, #007c44 100%);
+    --fundoNavBar: linear-gradient(to right, #499762, #02381f);
+    --fonte-bahia: Playfairsadient(to right, #ffb32e, #fbb551);
+    --fontecabecario: 'Righteous', cursive;
+}
+
+body {
+    /* background-image: linear-gradient(to right, #37744a, #035c33); */
+    background-color: rgb(224, 216, 216);
+    font-family: var(--fonte-bahia);
+    
+    position: relative;
+}
+
+header {
+    min-height: 50px;
+    font-family: var(--fontetitulo);
+    background-image: var(--fundoNavBar);
+}
+
+.cabecario {
+    min-height: 22px;
+    justify-content: space-between;
+    display: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-image: var(--fundoNavBar);
+}
+
+    .cabecario > lu > li {
+        display: inline-block;
+        font-size: 1.3em;
+        padding: 15px 0px 20px 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+
+header > h2 {
+    padding-top: 10px;
+    font-family: var(--fonte);
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+}
+
+nav {
+    background-color: var(--cor04);
+    padding: 10px;
+    display: block;
+    text-align: left;
+    background-image: var(--fundoNavBar);
+}
+
+.imagem {
+    background-image: url(imagens/capafundacao2.jpg);
+    min-height: 100px;
+    background-repeat: round;
+    text-align: center;
+    padding-top: 70px;
+}
+
+
+
+.imagem2 {
+    background-image: url(cabecalho-original.png);
+    min-height: 230px;
+    background-repeat: round;
+    text-align: center;
+}
+
+.imagem > h1 {
+    color: white;
+    text-shadow: 4px 3px 7px black;
+    font-family: var(--fontecabecario);
+}
+
+.imagem > img {
+    max-height: 70px;
+}
+
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.3s;
+}
+
+    nav > a:hover {
+        background-color: var(--cor01);
+        color: var(--cor3);
+    }
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: var(--cor02);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    padding: 30px 10px;
+ 
+}
+
+.ano {
+    background-color: #63ac75;
+    display: inline-block;
+    width: 90%;
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+
+
+}
+
+.grupoedital {
+    border-radius: 15px;
+    background-color: #a1dfb6;
+}
+
+.edital {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    margin-right: 25px;
+  
+    padding: 15px;
+  
+  
+}
+
+#title{
+    color: rgb(243, 243, 243);
+    border-top: 4px solid white;
+    border-bottom: 4px solid white;
+    background-image: linear-gradient(to right, #499762, #035c33);
+    width: 100%;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 30px 0px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+
+main > h1 {
+    text-align: center;
+    font-family: var(--fonte);
+    padding: 30px;
+}
+
+
+main h5 {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+
+
+main h6 {
+    font-size: 1.2em;
+    display: inline;
+    padding-bottom: 10px;
+}
+
+main  button {
+   margin-left: 20px;
+   padding: 0.5rem 1rem;
+   text-transform: uppercase;
+   border-radius: 30px;
+   border: 0;
+   cursor: pointer;
+   font-size: 80%;
+   font-weight: 500;
+   color: rgb(0, 0, 0);
+   background-color: #035c33;
+   display: inline-block;
+  
+}
+
+main button:hover {
+    transition: all 0.3s;
+    color: white;
+    background-color: rgb(76, 175, 101);
+}
+
+
+footer {
+    font-size: 10px;
+}
+
+#navSobreNos {
+    background-image: var(--corNavSobre);
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+#rodape {
+    margin:auto; /*Centraliza a div pai*/
+    margin-left:auto;
+    width: 1200px; /*Tamanho da div pai*/
+}
+
+
+
+footer{
+    color: white;
+    background: linear-gradient(to right, #499762, #035c33);
+    padding: 32px 0px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+}   
+footer h4{
+    border-bottom: 3px solid white;
+    text-align: center;
+    margin-bottom: 12px;
+    font-size: 24px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+footer form input{
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    max-width: 60%;
+    width: 100%;
+    font-size: 16px;
+    padding: 4px 2px 4px 6px;
+}
+footer form input[type="submit"]{
+    width: 40%;
+    padding: 4px;
+    cursor: pointer;
+    color: rgb(70, 69, 69);
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    transition: all 0.4s;
+}
+form input[type="submit"]:hover{
+    background-color: #499762;
+    color: white;
+}
+footer adject, footer form{
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    text-align:center;
+    width: 100%;
+    max-width: 40%
+}
+footer adject ul{
+    text-align: center;
+}
+footer adject li{
+    list-style: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+footer form textarea{
+    border-radius: 4px;
+    min-height: 80px;
+    padding: 4px 2px 4px 7px;
+    width: 60%;
+    outline: none;
+}
+footer ul li img{
+    text-align: center;
+    margin-top: 12px;
+    width: 40%;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding: 12px 0px;
+    
+}
+.copy a{
+    font-size: 14px;
+    color: var(--cor04);
+    text-decoration: none
+}
+hr{
+    margin-top: 8px;
+}
